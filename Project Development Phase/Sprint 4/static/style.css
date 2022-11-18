@@ -1,16 +1,9 @@
 body,
 html {
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
   height: 100%;
-}
-
-/* BG style */
-#home {
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  filter: brightness(50%);
 }
 
 /* navbar bg color */
@@ -39,9 +32,7 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: #fff;
   transform: translate(-50%, -50%);
-  filter: brightness(150%);
 }
 
 #image-container {

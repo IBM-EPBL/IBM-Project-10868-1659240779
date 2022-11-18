@@ -1,16 +1,16 @@
 body,
 html {
   height: 100%;
-  /* background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); */
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
-    )
-    no-repeat center center scroll;
+}
+
+/* BG style */
+#home {
+  background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: brightness(50%);
 }
 
 /* navbar bg color */
@@ -39,6 +39,7 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
+  color: #fff;
   transform: translate(-50%, -50%);
   filter: brightness(150%);
 }
